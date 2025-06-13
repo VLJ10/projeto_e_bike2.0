@@ -15,12 +15,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tailwind.config.js">
-    <title>Document</title>
+    <title>E-Bike</title>
 </head>
-<body class="bg-black mr-10 ml-25 mt-5 h-screen">
+<body class="bg-[#222121] mr-10 ml-25 mt-5 mb-10 h-220 w-auto">
     <header class="h-26 w-full text-white flex justify-between items-center ">
         <img src="./img/logo.png" alt="">
-        <ul class="w-100 h-26 flex flex-row justify-center items-center space-x-20">
+        <ul class="w-150 h-26 flex flex-row justify-center items-center space-x-35">
             <li class="font-Roboto text-2xl">About Us</li>
             <li class="font-Roboto text-2xl">Store</li>
             <li class="font-Roboto text-2xl">Contact</li>
@@ -30,35 +30,58 @@
                 <i class="fas fa-search w-12 h-12 text-3xl"></i>
             </a>
             <a href="#">
-                <i class="fas fa-bars w-12 h-12 text-3xl"></i>
+                <i class="fas fa-bars w-12 h-12 text-4xl"></i>
             </a>
         </div>
     </header>
-    <main class="w-full h-220 flex flex-row items-center">
-        <div class="conteiner-esquerdo  w-165 h-190 pb-30 gap-y-2 flex justify-end flex-col">
-            <h2 class="text-[#C19932] w-160 h-25 text-7xl text-bold " style="font-family: Delius Unicase ; font-weight: bold; font-size: 80px;">THE HUBLES</h2>
-            <h1 class=" flex justify-start text-white w-160 h-55 text-9xl text-bold tracking-wider" style=" font-family: Roboto;font-weight: 600; font-size: 200px;">E-Bike</h1>
-            <p class="text-gray-400 text-3xl h-30 w-140">Style, Security and safety built for the modern urban riders.</p>
-            <button class="text-white w-92 h-20 mt-6 mb-2 rounded-full flex flex-row justify-between items-center border border-[#C19932] border-3">
-                <p class="h-20 w-52 text-3xl flex items-center justify-center">Order Now</p> 
-                <a href="#" class="h-20 w-14 text-5xl font-light flex items-center">
+    <main class="w-full h-200 flex flex-row items-center">
+        <div class="conteiner-esquerdo  w-155 h-190 pb-30 gap-y-2 flex justify-end flex-col">
+            <h2 class="text-[#C19932] w-155 h-23 text-7xl"
+                style="font-family: Delius Unicase ; font-weight: bold; font-size: 60px;">THE HUBLES</h2>
+            <h1 class=" flex justify-start text-white w-155 h-55 text-9xl text-bold tracking-wider"
+                style=" font-family: Roboto;font-weight: 600; font-size: 180px;">E-Bike</h1>
+            <p class="text-gray-400 text-3xl h-30 w-140">Style, Security and safety built for the modern urban riders.
+            </p>
+            <button
+                class="text-white w-85 h-19 mt-6 mb-2 rounded-full flex flex-row justify-between items-center border-[#C19932] border-3">
+                <p class="h-20 w-52 text-2xl flex items-center justify-center">Order Now</p>
+                <a href="#" class="h-20 w-14 text-4xl font-light flex items-center">
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
             </button>
         </div>
-        
-        <div class="conteiner-meio w-253 h-235 flex justify-end flex-col"> 
-            <img src="./img/Moto.png" alt="" class="w-250 h-180 mb-10">
+
+        <div class="conteiner-meio w-290 h-200 flex justify-end items-center flex-col gap-y-4">
+            <img src="./img/Moto.png" alt="" class="w-215 h-155 flex justify-center">
             <div class="especificacao">
-                <img src="./img/Group 11.png" alt="" class="h-45 w-300 -z-10">
-                <span class="z-10">
-                    <h3 class="text-white w-20">1000W</h3>
-                    <p class="text-gray-400 w-20">Motor</p>
-                </span>
+                <img src="./img/Group 11.png" alt="" class="h-47 w-280 z-10 ">
+                <div class="descricao flex justify-around absolute w-250 top-200 left-190">
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
+                        style="font-family: Roboto;">
+                        <h3 class="text-white w-30 text-4xl font-bold">1000W</h3>
+                        <p class="text-gray-400 w-19 text-2xl">Motor</p>
+                    </span>
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
+                        style="font-family: Roboto;">
+                        <h3 class="text-white w-35 text-4xl font-bold">5 Hours</h3>
+                        <p class="text-gray-400 w-40 text-2xl">Charging Time</p>
+                    </span>
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
+                        style="font-family: Roboto;">
+                        <h3 class="text-white w-30 text-4xl font-bold">75mph</h3>
+                        <p class="text-gray-400 w-30 text-2xl">Top Speed</p>
+                    </span>
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
+                        style="font-family: Roboto;">
+                        <h3 class="text-white w-18 text-4xl font-bold">90V</h3>
+                        <p class="text-gray-400 w-20 text-2xl">Battery</p>
+                    </span>
+                </div>
+
             </div>
         </div>
-        <div class="conteiner-direito w-23 h-200 flex justify-end items-center">
-            <img src="./img/Frame 6.png" alt="" class="h-40 " >
+        <div class="conteiner-direito w-23 h-200 flex justify-center items-center">
+            <img src="./img/Frame 6.png" alt="" class="h-27 ">
         </div>
     </main>
     <footer>
