@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="tailwind.config.js">
     <title>E-Bike</title>
 </head>
-<body class="bg-[#222121] mr-10 ml-25 mt-5 mb-10 h-220 w-auto">
-    <header class="h-26 w-full text-white flex justify-between items-center ">
-        <img src="./img/logo.png" alt="">
-        <ul class="w-150 h-26 flex flex-row justify-center items-center space-x-35">
-            <li class="font-Roboto text-2xl">About Us</li>
-            <li class="font-Roboto text-2xl">Store</li>
-            <li class="font-Roboto text-2xl">Contact</li>
+<body class="bg-[#222121] 2xl:mr-10 2xl:ml-25 2xl:mt-5 2xl:mb-10 2xl:h-220 2xl:w-auto lg:w-290 lg:ml-10 lg:h-320 lg:mb-0">
+    <header class="2xl:h-26 2xl:w-full text-white flex justify-between items-center lg:w-230 lg:h-20">
+        <img src="./img/logo.png" alt="" class="2xl:w-auto 2xl:h-auto lg:w-20 lg:h-16">
+        <ul class="2xl:w-150 h-26 flex flex-row justify-center items-center 2xl:space-x-35 lg:w-90 lg:space-x-20">
+            <li class="font-Roboto 2xl:text-2xl lg:text-lg">About Us</li>
+            <li class="font-Roboto 2xl:text-2xl lg:text-lg">Store</li>
+            <li class="font-Roboto 2xl:text-2xl lg:text-lg">Contact</li>
         </ul>
-        <div class="w-40 h-26 flex justify-end items-center space-x-10 ">
+        <div class="2xl:w-40 2xl:h-26 flex justify-end items-center 2xl:space-x-10 ">
             <a href="#">
                 <i class="fas fa-search w-12 h-12 text-3xl"></i>
             </a>
@@ -34,16 +34,17 @@
             </a>
         </div>
     </header>
-    <main class="w-full h-200 flex flex-row items-center">
-        <div class="conteiner-esquerdo  w-155 h-190 pb-30 gap-y-2 flex justify-end flex-col">
-            <h2 class="text-[#C19932] w-155 h-23 text-7xl font-[<Delius Unicase>] font-extrabold"
-                style="  font-size: 60px;">THE HUBLES</h2>
-            <h1 class=" flex justify-start text-white w-155 h-55 text-9xl text-bold tracking-wider"
-                style=" font-family: Roboto;font-weight: 600; font-size: 180px;">E-Bike</h1>
-            <p class="text-gray-400 text-3xl h-30 w-140">Style, Security and safety built for the modern urban riders.
+    <main class="2xl:w-full 2xl:h-200 2xl:flex 2xl:flex-row 2xl:items-center lg:w-260 lg:h-300 lg:flex lg:flex-col-reverse lg:justify-start">
+
+        <div class="conteiner-esquerdo  2xl:w-155 2xl:h-190 2xl:pb-30 gap-y-2 flex 2xl:justify-end flex-col lg:h-100 lg:pb-0 lg:items-center">
+            <h2 class="text-[#C19932] 2xl:w-155 2xl:h-23 2xl:text-[70px] font-extrabold lg:text-7xl"
+                style=" font-family: Delius Unicase;">THE HUBLES</h2>
+            <h1 class=" flex justify-start text-white 2xl:font-[Roboto] 2xl:w-155 2xl:h-55 2xl:text-[180px] font-bold tracking-wider lg:text-9xl lg:w-105 lg:h-35">
+                E-Bike</h1>
+            <p class="text-gray-400 text-3xl 2xl:h-30 w-140 2xl:visible lg:invisible lg:h-0">Style, Security and safety built for the modern urban riders.
             </p>
             <button
-                class="text-white w-85 h-19 mt-6 mb-2 rounded-full flex flex-row justify-between items-center border-[#C19932] border-3">
+                class="text-white 2xl:w-85 2xl:h-19 2xl:mt-6 2xl:mb-2 rounded-full flex flex-row justify-between items-center border-[#C19932] border-3 lg:h-30 lg:w-150">
                 <p class="h-20 w-52 text-2xl flex items-center justify-center">Order Now</p>
                 <a href="#" class="h-20 w-14 text-4xl font-light flex items-center">
                     <i class="fa-solid fa-angle-right"></i>
@@ -51,40 +52,36 @@
             </button>
         </div>
 
-        <div class="conteiner-meio w-290 h-200 flex justify-end items-center flex-col gap-y-4">
-            <img src="./img/Moto.png" alt="" class="w-215 h-155 flex justify-center">
-            <div class="especificacao">
-                <img src="./img/Group 11.png" alt="" class="h-47 w-280 z-10 ">
-                <div class="descricao flex justify-around absolute w-250 top-200 left-190">
-                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
-                        style="font-family: Roboto;">
-                        <h3 class="text-white w-30 text-4xl font-bold">1000W</h3>
-                        <p class="text-gray-400 w-19 text-2xl">Motor</p>
+        <div class="conteiner-meio 2xl:w-290 2xl:h-200 flex 2xl:justify-end items-center flex-col gap-y-4 lg:h-170 lg:w-250 lg:justify-end">
+            <img src="./img/Moto.png" alt="" class=" 2xl:w-215 2xl:h-155 flex justify-center lg:w-150">
+            <div class="especificacao 2xl:visible 2xl:h-47 lg:h-30">
+                <img src="./img/Group 11.png" alt="" class="h-47 w-280 z-10 2xl:visible lg:invisible lg:h-0 lg:w-0">
+                <div class="descricao flex justify-around 2xl:absolute 2xl:border-none 2xl:w-250 2xl:top-200 2xl:left-190 lg:w-180 lg:border-white lg:border-2 lg:rounded-2xl lg:relative">
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center font-[Roboto]">
+                        <h3 class="text-white 2xl:w-30 2xl:text-4xl font-bold lg:text-3xl">1000W</h3>
+                        <p class="text-gray-400 2xl:w-19 2xl:text-2xl lg:text-xl">Motor</p>
                     </span>
-                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
-                        style="font-family: Roboto;">
-                        <h3 class="text-white w-35 text-4xl font-bold">5 Hours</h3>
-                        <p class="text-gray-400 w-40 text-2xl">Charging Time</p>
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center font-[Roboto]">
+                        <h3 class="text-white 2xl:w-35 2xl:text-4xl font-bold lg:text-3xl">5 Hours</h3>
+                        <p class="text-gray-400 2xl:w-40 2xl:text-2xl lg:text-xl">Charging Time</p>
                     </span>
-                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
-                        style="font-family: Roboto;">
-                        <h3 class="text-white w-30 text-4xl font-bold">75mph</h3>
-                        <p class="text-gray-400 w-30 text-2xl">Top Speed</p>
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center font-[Roboto]">
+                        <h3 class="text-white 2xl:w-30 2xl:text-4xl font-bold lg:text-3xl">75mph</h3>
+                        <p class="text-gray-400 2xl:w-30 2xl:text-2xl text-xl">Top Speed</p>
                     </span>
-                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center"
-                        style="font-family: Roboto;">
-                        <h3 class="text-white w-18 text-4xl font-bold">90V</h3>
-                        <p class="text-gray-400 w-20 text-2xl">Battery</p>
+                    <span class="z-20 w-40 h-22 flex flex-col items-center justify-center font-[Roboto]">
+                        <h3 class="text-white 2xl:w-18 2xl:text-4xl font-bold lg:text-3xl">90V</h3>
+                        <p class="text-gray-400 2xl:w-20 2xl:text-2xl lg:text-xl">Battery</p>
                     </span>
                 </div>
 
             </div>
         </div>
-        <div class="conteiner-direito w-23 h-200 flex justify-center items-center">
+        <div class="conteiner-direito 2xl:w-23 2xl:h-200 flex justify-center items-center 2xl:visible lg:invisible lg:w-0 lg:h-0">
             <img src="./img/Frame 6.png" alt="" class="h-27 ">
         </div>
     </main>
-    <footer>
+    <footer class=" lg:invisible">
         <p>Copryty</p>
     </footer>
 </body>
