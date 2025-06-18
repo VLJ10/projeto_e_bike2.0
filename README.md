@@ -1,4 +1,4 @@
-# Riot Games
+# E-Bike
 Este é um site desenvolvido para a Situação de Aprendizem somativa, que exigia o uso do framework Tailwind, e responsividade para Desktop, Tablet e Mobile.
 
 ## DESKTOP
